@@ -12,7 +12,6 @@ A account aggregation web application powered by NodeJS with a chatbot made of D
 
 ![image](https://user-images.githubusercontent.com/107069125/195898082-8d101d54-f052-415d-8867-94f6309ab0fa.png)
 
-
 ![image](https://user-images.githubusercontent.com/107069125/195897801-4ac1adc1-5d87-467e-b134-ffe13f1be8b3.png)
 
 ![image](https://user-images.githubusercontent.com/107069125/195897938-474c65d3-47af-472b-b06d-3ec12e9920ce.png)
