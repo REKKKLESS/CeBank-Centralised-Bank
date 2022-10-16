@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Chatbot UI</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <a href="#" class="float" onclick="myFunction()">
+    <i class="fa-solid fa-comments chat-icon"></i>
+  </a>
+  <div class="ChatWindow" id="bubble">
+    <div class="ChatItem ChatItem--customer">
+      <div class="ChatItem-meta">
+        <div class="ChatItem-avatar">
+          <img class="ChatItem-avatarImage" src="https://image.ibb.co/eTiXWa/avatarrobot.png">
+        </div>
+      </div>
+      <div class="ChatItem-chatContent">
+        <div class="ChatItem-chatText">sound isnt working on my phone anymore</div>
+        <div class="ChatItem-timeStamp"><strong>Chat Bot</strong> • Today 05:49</div>
+      </div>
+    </div>
+
+    <div class="ChatItem ChatItem--expert">
+      <div class="ChatItem-meta">
+        <div class="ChatItem-avatar">
+          <img class="ChatItem-avatarImage" src="https://randomuser.me/api/portraits/women/0.jpg">
+        </div>
+      </div>
+      <div class="ChatItem-chatContent">
+        <div class="ChatItem-chatText">hi there!</div>
+        <div class="ChatItem-chatText">i'd be happy to help you!</div>
+        <div class="ChatItem-chatText">just to make sure, have you tried pressing the physical volume button on the side
+          to make sure the volume is all the way up?</div>
+        <div class="ChatItem-timeStamp"><strong>Me</strong> • Today 05:49</div>
+      </div>
+    </div>
+
+    <div class="ChatItem ChatItem--customer">
+      <div class="ChatItem-meta">
+        <div class="ChatItem-avatar">
+          <img class="ChatItem-avatarImage" src="https://image.ibb.co/eTiXWa/avatarrobot.png">
+        </div>
+      </div>
+      <div class="ChatItem-chatContent">
+        <div class="ChatItem-chatText">k let metry</div>
+        <div class="ChatItem-timeStamp"><strong>Chat Bot</strong> • Today 05:51</div>
+      </div>
+    </div>
+
+    <div class="ChatItem ChatItem--customer">
+      <div class="ChatItem-meta">
+        <div class="ChatItem-avatar">
+          <img class="ChatItem-avatarImage" src="https://image.ibb.co/eTiXWa/avatarrobot.png">
+        </div>
+      </div>
+      <div class="ChatItem-chatContent">
+        <div class="ChatItem-chatText">i think the volume is all the way up</div>
+        <div class="ChatItem-timeStamp"><strong>Chat Bot</strong> • Today 05:53</div>
+      </div>
+    </div>
+
+    <div class="ChatItem ChatItem--expert">
+      <div class="ChatItem-meta">
+        <div class="ChatItem-avatar">
+          <img class="ChatItem-avatarImage" src="https://randomuser.me/api/portraits/women/0.jpg">
+        </div>
+      </div>
+      <div class="ChatItem-chatContent">
+        <div class="ChatItem-chatText">no worries!</div>
+        <div class="ChatItem-chatText">try this for me: <br><br>- Go to Settings<br><br>- Go to Sound <br><br>- Make
+          sure mute is off</div>
+        <div class="ChatItem-timeStamp"><strong>Me</strong> • Today 05:54</div>
+      </div>
+    </div>
+    <div class="ChatInput is-hidey">
+      <div class="ChatInput-input" contenteditable="true" placeholder="Type your message here..."></div>
+      <button class="ChatInput-btnSend">Send</button>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+  </div>
+</body>
+
+</html>

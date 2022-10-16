@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Responsive Login and Registration Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign Up Form | Vanilla Javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <body>
+      <section>
+        <div class="container">
+          <div class="user signinBx">
+            <div class="imgBx">
+              <img src="Screenshot 2022-09-07 171505.jpg" alt="" />
+            </div>
+            <div class="formBx">
+              <form action="" onsubmit="return false;">
+                <h2>Sign In</h2>
+                <input type="text" name="" placeholder="Username" />
+                <input type="password" name="" placeholder="Password" />
+                <input type="submit" name="" value="Login" />
+                <p class="signup">
+                  Don't have an account ?
+                  <a href="#" onclick="toggleForm();">Sign Up.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="user signupBx">
+            <div class="formBx">
+              <form action="" onsubmit="return false;">
+                <h2>Create an account</h2>
+                <input type="text" name="" placeholder="Username" />
+                <input type="text" name="" placeholder="PanCard" />
+                <input type="email" name="" placeholder="Email Address" />
+                <input type="password" name="" placeholder="Create Password" />
+                <input type="password" name="" placeholder="Confirm Password" />
+                <input type="submit" name="" value="Sign Up" />
+                <p class="signup">
+                  Already have an account ?
+                  <a href="#" onclick="toggleForm();">Sign in.</a>
+                </p>
+              </form>
+            </div>
+            <div class="imgBx">
+              <img src="Screenshot 2022-09-07 171934.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
+</html>

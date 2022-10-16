@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login and Registration Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign Up Form</title>
+    <link rel="stylesheet" href="css/register_style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <body>
+      <section>
+        <div class="container">
+          <div class="user signinBx">
+            <div class="imgBx">
+              <img src="/images/reg_img.jpg" alt="" />
+            </div>
+            <div class="formBx">
+              <form action="/login" method="POST" >
+                <h2>Sign In</h2>
+                <input type="text" name="username" placeholder="Username" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="text" name="pan_number" placeholder="Pan Card Number" />
+                <input type="submit" name="" value="Login" />
+                <p class="signup">
+                  Don't have an account ?
+                  <a href="#" onclick="toggleForm();">Sign Up.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="user signupBx">
+            <div class="formBx">
+              <form action="/" method="POST" >
+                <h2>Create an account</h2>
+                <input type="text" name="username" placeholder="Username" />
+                <input type="text" name="pancard" placeholder="PanCard" />
+                <input type="email" name="emailaddress" placeholder="Email Address" />
+                <input type="text" name="number" placeholder="Number" />
+                <input type="password" name="createpassword" placeholder="Create Password" />
+                
+                <input type="submit" name="" value="Sign Up" />
+                <p class="signup">
+                  Already have an account ?
+                  <a href="#" onclick="toggleForm();">Sign in.</a>
+                </p>
+              </form>
+            </div>
+            <div class="imgBx">
+              <img src="/images/reg_img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    <!-- partial -->
+    <script src="js/register_script.js"></script>
+  </body>
+</html>
